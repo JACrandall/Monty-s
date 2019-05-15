@@ -16,9 +16,11 @@ m_date = resp['launch_date_local']
 print("Name of the mission is: ", m_name)
 print("Launch Date: ", m_date)
 
+#Get rocket name
 m_rock = resp["rocket"]["rocket_name"]
 print(m_rock, '\n')
 
+#Have user enter input
 input('\n Press enter to access a videolink \n')
 
 #m_link = 'https://en.wikipedia.org/wiki/SpaceX_CRS-17'
