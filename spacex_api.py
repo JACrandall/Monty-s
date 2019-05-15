@@ -19,7 +19,9 @@ print("Launch Date: ", m_date)
 m_rock = resp["rocket"]["rocket_name"]
 print(m_rock, '\n')
 
-m_link = 'https://en.wikipedia.org/wiki/SpaceX_CRS-17'
+input('\n Press enter to access a videolink \n')
 
-webbrowser.open(m_link)
+#m_link = 'https://en.wikipedia.org/wiki/SpaceX_CRS-17'
+
+webbrowser.open(resp['links']['wikipedia'])
 
